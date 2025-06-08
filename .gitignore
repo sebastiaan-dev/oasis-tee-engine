@@ -1,0 +1,6 @@
+.direnv/
+.devenv/
+
+build/
+dist/
+target/
