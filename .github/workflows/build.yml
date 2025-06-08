@@ -6,15 +6,17 @@ on:
       - main
   pull_request:
 
-environment: development
 
-env:
-  REGISTRY: docker.io
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+
+    environment: development
+
+    env:
+      REGISTRY: docker.io
+      IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}
 
     steps:
       - name: Checkout code
