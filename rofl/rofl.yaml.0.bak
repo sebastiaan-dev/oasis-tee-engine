@@ -1,4 +1,4 @@
-name: tee-framework
+name: tee-engine-framework
 version: 0.1.0
 tee: tdx
 kind: container
@@ -17,13 +17,14 @@ artifacts:
     compose: compose.yaml
 deployments:
   default:
-    app_id: rofl1qzhxm5fqw64ksh68m8qm9cwllqwydxv0dqu99qjm
+    app_id: rofl1qpgh9swc9n24mtys5fxks5nkxqka7yy27cghk3me
     network: testnet
     paratime: sapphire
     admin: dev
+    oci_repository: rofl.sh/03cf3d63-8a5d-4b68-9583-a2a3a9b7b9f9:1749396721
     trust_root:
-      height: 26967695
-      hash: ce2a22921895a978dd39213e73177592f76bc702c02469ef71def9c505ce4560
+      height: 26966991
+      hash: 39a6d7eb51236685c7d17e1fc8ae1efbf4eaa20092cfd47ed386dc74c870b805
     policy:
       quotes:
         pcs:
@@ -31,9 +32,14 @@ deployments:
           min_tcb_evaluation_data_number: 18
           tdx: {}
       enclaves:
-        - id: YTNnmU2wv4uMd3+XzeZ7bIWlAVw2CFldVn/DyN9Be3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        - id: 4SXU570RvOJYPYNx2J8uIyWjkSWkjqw1FcljwmDxii4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: Sria2iSs60Bkn4QN7hyGS1YHaBPTz+F6ig2COrSQragAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: /8zgSHrBKeiEWauGKAUvvxH+4+G+El3L8YEVmGau0lMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
       endorsements:
         - any: {}
       fees: endorsing_node
       max_expiration: 3
+    machines:
+      default:
+        provider: oasis1qp2ens0hsp7gh23wajxa4hpetkdek3swyyulyrmz
+        offer: playground_short
+        id: 00000000000000c0

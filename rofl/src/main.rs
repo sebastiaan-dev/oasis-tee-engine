@@ -16,7 +16,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     loop {
         // Build the log message with current timestamp
         let log = LogMessage {
-            message: "Periodic log message from Oasis".into(),
+            message: "Periodic log message from Oasis network".into(),
             // timestamp: chrono::Utc::now().to_rfc3339(),
         };
 

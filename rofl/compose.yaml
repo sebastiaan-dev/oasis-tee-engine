@@ -1,3 +1,4 @@
 services:
   tee-engine:
-    image: docker.io/segerritsen/oasis-tee-engine:latest
+    image: "docker.io/segerritsen/oasis-tee-engine:latest"
+    platform: linux/amd64
