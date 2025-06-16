@@ -11,7 +11,7 @@ struct LogMessage {
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let client = Client::new();
-    let url = "http://c1e4-2001-1c00-5a82-e300-60a6-f040-74f3-54bc.ngrok-free.app/logs";
+    let url = "http://0a16-2001-1c00-5a82-e300-9084-31fc-638e-605.ngrok-free.app/logs";
 
     loop {
         // Build the log message with current timestamp

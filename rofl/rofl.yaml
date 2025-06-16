@@ -21,6 +21,7 @@ deployments:
     network: testnet
     paratime: sapphire
     admin: dev
+    oci_repository: rofl.sh/780bd94e-cc2c-4ba5-8669-54f9166dbe47:1749399141
     trust_root:
       height: 26967695
       hash: ce2a22921895a978dd39213e73177592f76bc702c02469ef71def9c505ce4560
@@ -31,8 +32,8 @@ deployments:
           min_tcb_evaluation_data_number: 18
           tdx: {}
       enclaves:
-        - id: YTNnmU2wv4uMd3+XzeZ7bIWlAVw2CFldVn/DyN9Be3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        - id: 4SXU570RvOJYPYNx2J8uIyWjkSWkjqw1FcljwmDxii4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: ZLYOrVKLNDjAsbhlrtr9rwHsR6YPKJrEK8Me0HWQf2cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: +YGGNKlz+y1kiTpqRusR8eZSj8/uAhczqfKV8XAltMYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
       endorsements:
         - any: {}
       fees: endorsing_node
